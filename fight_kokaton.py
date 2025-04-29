@@ -160,6 +160,7 @@ def main():
                  beam = Beam(bird)          
          screen.blit(bg_img, [0, 0])
  
+ 
          # if bomb is not None:
          for bomb in bombs:
              if bird.rct.colliderect(bomb.rct):
